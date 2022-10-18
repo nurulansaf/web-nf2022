@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Pemesanan Barang</title>
+</head>
+<body>
+	<header bg="beige">
+		<br>
+		<nav>
+			<center>
+				<a align="center" href="#home">Home</a> |
+				<a align="center" href="#generate-link">Generate Link</a> |
+				<a align="center" href="#transaction-history">Transaction History</a> |
+				<a align="center" href="#policy">Policy</a> |
+				<a align="center" href="#logout">Logout</a> |
+			</center>
+		</nav>
+	</header>
+	<br>
+	<hr>
+	<br><br>
+	<main>
+    	<form action="hasil-pemesanan-barang.html">
+			<div id="pemesanan">
+				<table>
+					<tr>
+						<td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+						<td>
+							<div>
+								<table>
+									<tr>
+										<td><img src="https://pertaniansehat.com/v01/wp-content/uploads/2015/08/default-placeholder.png" width="400">&emsp;</td>
+									</tr>
+									<tr>
+										<td><button>Upload Picture</button></td>		
+									</tr>
+								</table>
+							</div>
+						</td>
+						<td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+						<td>
+							<div>
+								<table>
+									<tr>
+				                        <td><label for="title">Title Here</label></td>
+				                        <td>: <input type="text" id="title"></td>
+									</tr>
+									<tr>
+				                        <td><label for="description">Description</label></td>
+				                        <td>: <textarea id="description" ></textarea></td>
+									</tr>
+									<tr>
+				                        <td><label for="number">Account Number</label></td>
+				                        <td>: <input type="number" id="number"></td>
+									</tr>
+									<tr>
+				                        <td><label for="bank">Bank</label></td>
+				                        <td>: 
+				                        	<select name="Bank" id="Bank">
+											  <option value="BCA" selected>BCA</option>
+											  <option value="Mandiri">Mandiri</option>
+											  <option value="BTN">BTN</option>
+											  <option value="BRI">BRI</option>
+											</select>
+				                        </td>
+									</tr>
+									<tr>
+				                        <td><label for="holder">Account Holder</label></td>
+				                        <td>: <input type="text" id="holder"></td>
+									</tr>
+									<tr>
+										<td><label for="count">Transaction</label></td>
+	            						<td>: <input type="number" id="count"></td>
+									</tr>
+									<tr>
+										<td></td>
+										<td>* If the transaction is for 3 person, choose 3 from the drop-down-list</td>
+									</tr>
+									<tr>
+										<td></td>
+										<td><input type="checkbox" id="mobile-phone"><label for="mobile-phone"> Send to Mobile Phone</label></td>
+									</tr>
+									<tr>
+										<td></td>
+										<td><input type="checkbox" id="email-user"><label for="email-user"> Send to Email</label></td>
+									</tr>
+									<tr>
+				                        <td><label for="phone">Send to Mobile Phone</label></td>
+				                        <td>: <input type="number" id="phone"></td>
+									</tr>
+									<tr>
+				                        <td><label for="email">Send to Email</label></td>
+				                        <td>: <input type="email" id="email"></td>
+									</tr>
+									<tr><td><br></td></tr>
+									<tr>
+										<td colspan="2" align="center"><button type="submit">Generate Nabr Link</button></td>
+									</tr>
+								</table>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</form>
+	</main>
+	<br><br><br><br><br><br>
+	<hr>
+</body>
+</html>
