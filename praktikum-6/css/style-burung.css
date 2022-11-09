@@ -1,0 +1,68 @@
+
+#header{
+    text-align: center;
+    padding: 20px;
+    background-color: burlywood;
+}
+
+#header h1{
+    font-weight: 700;
+    color: blue;
+}
+
+#header blockquote{
+    padding: 2px 15px;
+    background-color: yellow;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+ul li{
+    padding : 0 10px
+}
+.gambar{
+    justify-content: center;
+    display: flex;
+}
+.isi .burung:first-letter {
+    font-size : 75px;
+    color: blue;
+    }
+.koleksi{
+    justify-content: center;
+    display: flex;
+}
+.koleksi img{
+    width: 20%;
+}
+.promo{
+    color: red;
+    text-align: center;
+}
+
+.promo h3{
+    background-color: azure;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+
+.promo ol{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.promo ol li{
+    padding : 0 10px
+}
