@@ -16,6 +16,9 @@ p{
     margin-left: auto;
     margin-right: auto;
 }
+.khasiat span{
+    font-weight: 600;
+}
 .foto{
     background-color: black;
 }
@@ -45,3 +48,33 @@ p{
     display: block;
     margin: auto;
 }
+
+/* TABLE */
+.tabel-data{
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 30px 50px 30px 50px;
+}
+#tabel-data {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    /* margin-top: 20px; */
+  }
+  
+  #tabel-data td, #tabel-data th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tabel-data tr:nth-child(even){background-color: #daeaf6;}
+  
+  #tabel-data tr:hover {background-color: #ddd;}
+  
+  #tabel-data th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #379dd5;
+    color: white;
+  }
