@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Box Gambar 7.4</title>
+        <style>
+        * {
+            box-sizing: border-box;
+            /* merubah kalkulasi dalam mengukur lebar element */
+            position: relative;
+        }
+
+        .sec{
+            padding:15px;
+        }
+
+
+        .clearfix-2 .box-1{
+            float: left;
+            width: 20%;
+            padding: 50px;
+            height: 100px;
+        }
+
+        .clearfix-2 .box-2{
+            float: right;
+            width: 78%;
+            padding: 50px;
+            height: 100px;
+        }
+
+        .clearfix {
+            top: 30px;
+        }
+
+        .clearfix .box-2 {
+            float: left;
+            width: 20%;
+            padding: 50px;
+            height: 300px;
+        }
+
+        .clearfix .box-3 {
+            float: left;
+            width: 55%;
+            padding: 50px;
+            height: 300px;
+            left: 35px;
+        }
+
+        .clearfix .box-4 {
+            float: right;
+            width: 20%;
+            padding: 50px;
+            height: 300px;
+        }
+
+        .clearfix-3 .box-1{
+            width: 100%;
+            padding: 50px;
+            height: 150px;
+            top: 400px;
+        }
+        
+
+        </style>
+    </head>
+    <body>
+
+        <div class="sec clearfix-2">
+            <div class="sec box-1" style="background-color: darkkhaki;"></div>
+            <div class="sec box-2" style="background-color: darkgoldenrod;"></div>
+        </div>
+
+        <div class="sec clearfix">
+            <div class="sec box-2" style="background-color: darkkhaki;"></div>
+            <div class="sec box-3" style="background-color: darkgoldenrod;"></div>
+            <div class="sec box-4" style="background-color: salmon;"></div>
+        </div>
+
+        
+        <div class="sec clearfix-3">
+            <div class="sec box-1" style="background-color: darkkhaki;"></div>
+        </div>
+        
+    </body>
+</html>
+
