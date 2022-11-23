@@ -1,0 +1,49 @@
+/* FLEXBOX & GRI CLASS */
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    min-height: 100vh;
+}
+
+main nav{
+    flex: 0.3;
+    padding: 20px;
+    background-color: khaki;
+}
+
+main div{
+    flex: 2;
+}
+
+main div header{
+    padding: 20px;
+    flex: 1;
+    background-color: burlywood;
+}
+
+main .content{
+    display: flex;
+    min-height: 70vh;
+}
+
+main .content article{
+    flex: 2;
+    padding: 20px;
+    background-color: darkkhaki;
+}
+
+main .content aside{
+    flex: 1;
+    padding: 20px;
+    background-color: mediumseagreen;
+}
+
+main footer{
+    padding: 20px;
+    background-color: wheat;
+}
