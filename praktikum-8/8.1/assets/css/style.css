@@ -1,0 +1,35 @@
+/* FLEXBOX & GRI CLASS */
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color:khaki;
+}
+
+header img{
+    width: 4rem;
+    /* rem : satuan dari ukuran */
+} 
+
+header ul{
+    display: flex;
+    list-style: none;
+    /* margin: 0 20px 0 20px;   */
+}
+
+header ul li{
+    margin: 0 50px 0 50px;  
+    font-weight: 600;
+}
+
+h3{
+    margin: 10px 15px;
+    font-size: 2rem;
+}

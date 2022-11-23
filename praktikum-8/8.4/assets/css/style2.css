@@ -1,0 +1,59 @@
+/* FLEXBOX & GRI CLASS */
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: khaki;
+    flex: 1;
+}
+
+div{
+    display: flex;
+    min-height: 50vh;
+}
+
+div aside{
+    padding: 20px;
+    flex: 1;
+    color: #fff;
+    text-align: center;
+    background-color: mediumseagreen;
+}
+
+div aside h3{
+    text-align: center;
+    margin: 0 auto;
+}
+
+div article{
+    padding: 20px;
+    flex: 2;
+    color: #fff;
+    text-align: center;
+    background-color: darkkhaki;
+}
+
+div article .img{
+    display: flex;
+    justify-content: center;
+}
+div article .img .img-item{
+    margin: 20px;
+}
+
+div article .img .img-item img{
+    width: 200px;
+    height: 200px;
+}
+footer{
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: wheat;
+}
