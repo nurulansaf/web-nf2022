@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Lingkaran</title>
+
+    <script>
+        function calc(){
+            const phi = 3.14;
+            let r = document.getElementById("r").value;
+            let luas = phi * r **2;
+            let keliling = 2 * phi *r;
+
+            // memberikan hasil hitungan ke var id yang ada di tag html
+            let output = document.getElementById("hasil");
+            // mengambil hasil dari var ouput untuk di show
+            output.value = "Luas : "+ luas +"\n"+ "Keliling : "+ keliling;
+        }
+    </script>
+</head>
+<body>
+    <h1>Menghitung luas dan keliling lingkaran dengan Input</h1>
+
+    <span>Luas = phi * r^2</span><br>
+    <span>Keliling = 2* phi * r</span><br>
+    <br>
+    
+    <table>
+        <tr>
+            <td>Jari </td>
+            <td><input type="number" id="r"></td>
+
+            <!-- barikan event (onclick="calc()") untuk menjalan ka function script yang di atas -->
+            <td><button onclick="calc()">Hitung</button></td>
+        </tr>
+        <tr>
+            <td>Hasil</td>
+            <td><textarea id="hasil" rows="5"></textarea></td>
+            <td></td>
+        </tr>
+    </table>
+    
+   
+</body>
+</html>

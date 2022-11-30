@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Lingkaran</title>
+
+</head>
+<body>
+    <h1>Menghitung luas dan keliling lingkaran</h1>
+
+    <!-- Buat tag span dengan ID -->
+    <span id="phi"></span>
+    <br>
+    <span id="jari"></span>
+    <br>
+    <span id="luas"></span>
+    <br>
+    <span id="keliling"></span>
+
+    
+     <!-- Kode Javascript -->
+     <script>
+        // console.log("Belajar JS");
+
+        // var Phi
+        const phi = 3.14;
+        // var Jari-Jari
+        let r = 14;
+        // Rumus Luas Lingkaran
+        let L = phi * (r ** 2);
+        // Rumus Keliling Luas Lingkaran
+        let K = phi * (2 * r);
+
+        console.log(L);
+        // test rumus, sudah bener atau blm
+
+        // Element dg ID pi
+        document.getElementById("phi").innerHTML = "Phi : " + phi;
+
+        // Element dg ID jari
+        document.getElementById("jari").innerHTML = "Jari-Jari : " + r;
+
+        // Element dg ID luas
+        document.getElementById("luas").innerHTML = "Luas : " +  L;
+
+        // Element dg ID luas
+        document.getElementById("keliling").innerHTML = "Keliling : " +  K;
+    </script>
+</body>
+</html>

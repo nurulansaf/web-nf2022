@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Jumlah Dua Bilangan</title>
+
+    <script>
+        function calc(){
+            let nilaiPertama = document.getElementById("nilaiPertama").value;
+            let nilaiKedua = document.getElementById("nilaiKedua").value;
+            let hitung = parseInt(nilaiPertama) + parseInt(nilaiKedua);
+
+            document.getElementById("hasil").value = hitung;
+        }
+    </script>
+</head>
+<body>
+    <h1>Menghitung Jumlah Dua Bilangan</h1>
+
+    <table>
+        <tr>
+            <td><input type="number" id="nilaiPertama" onchange="calc()"></td>
+        </tr>
+        <tr>
+            <td>+</td>
+        </tr>
+        <tr>
+            <td><input type="number" id="nilaiKedua" onchange="calc()"></td>
+        </tr>
+        <tr>
+            <td>=</td>
+        </tr>
+        <tr>
+            <td><input id="hasil" type="number"></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
