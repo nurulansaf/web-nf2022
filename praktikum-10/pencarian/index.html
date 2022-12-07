@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praktikum 10.1 - Pencarian</title>
+    <script>
+      function cariTeman() {
+        let frm = document.getElementById("form_pencarian");
+        let str = frm.cari_nama.value;
+
+        alert("Kata cari : " + frm.cari_nama.value);
+        document.getElementById("katacari").innerHTML = str;
+        console.log(str);
+
+        if (str == "Nurul") {
+          console.log("Nurul ketemu");
+        //   b";
+        } else {
+          console.log("ini bukan Nurul");
+          documnt.getElementById("katacari").style = "color:red";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <form id="form_pencarian">
+      Cari Mahasiswa :
+      <input type="text" name="cari_nama" value="" size="30" />
+      <input
+        type="button"
+        name="proses_cari"
+        value="Go"
+        onclick="cariTeman()"
+      />
+    </form>
+    <hr />
+    <div
+      style="
+        width: 300px;
+        border: 25px solid green;
+        padding: 25px;
+        margin: 25px;
+      ">
+      Nama yang anda cari : <span id="katacari"></span>
+    </div>
+  </body>
+</html>
