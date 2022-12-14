@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript - Tipe Data</title>
+</head>
+<body>
+    <script>
+        
+        // Number : int, Float
+        // BigInt : int tapi banyak data
+        // String : Single Quote (''), Double Quote (""), back tick (``)
+        // Boolean : tru & false
+        // Undefined : bisa diartikan belum terdefinisikan (sebuah var yang tidak ada value yang di simpan, maka value dari var tersebut adlaah undefined)
+        // Symbol  : mewakili value yang unik dan bersifat (immutable) atau tidak bisa diubah.
+   
+        const dinoName = "Nurul";
+        let dinoAge = 19;
+        // untuk menggabungkan di js itu dengann (+)
+        let dinoProfile = "Nama Dino " + dinoName + ", Umur Dino " + dinoAge + " Th";
+        let dinoProfile2 = `<br>Nama Dino  ${dinoName}  , Umur Dino ${dinoAge} Th <br><br>`;
+        document.write(dinoProfile);
+        document.write(dinoProfile2);
+
+
+        // boolean type
+        let x = 6;
+        let y = 7;
+        document.write("<b>Boolean Type</b> <br>");
+        document.write(x < y);
+
+        // undefined type
+
+        let dinoWidth;
+        document.write("<br>" + dinoWidth + "<br>");
+
+
+        // object (bukan variable, beda)
+        const dinoData = {
+            name : "Nurul",
+            age : 19,
+            weight : 50
+        }
+        document.write("<br><b>Object </b> <br><br>")
+        document.write(dinoData.name);
+
+        // array
+        let dinoGroup = ['t-rex', 'nama', 'Nurul']; 
+        // atau bisa dg array di dalam array
+        dinoGroup[2] = 'aku'; //mengubah
+        dinoGroup.push('Anisa');
+        
+        document.write("<b>Array</b> <br>");
+        document.write(dinoGroup)
+
+        let x = 8;
+        let y = 4;
+        document.write(x <= y);
+        // x lebih kecil atau sama dengan y
+        // == membandingi nilai/value aja, tipe data nya tidak di bandingi
+        // === membandingi nilai/value & tipe data nya
+        // !== tidak sama dengan
+
+    </script>
+</body>
+</html>

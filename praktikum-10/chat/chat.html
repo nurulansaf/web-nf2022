@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chatbox</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 1000px;
+    padding: 10px 0;
+}
+
+fieldset {
+    height: 1000px;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+
+section {
+    height: 400px;
+    width: 400px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+
+hr {
+    margin: 3px 0;
+    border-color: black;
+}
+
+ div#textbox {
+    height: 80%;
+    width: 80%;
+    position: relative;
+    padding: 20px;
+    border: 1px solid black;
+    overflow-x: scroll;
+    background-color: lightskyblue;
+}
+
+input,button {
+    padding: 5px ;
+    margin: 0 3px;
+}
+
+.input {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend><h2>Simple Chat Box App</h2></legend>
+        <section>
+            <div id="textbox"> 
+                <strong><p> Simple Chatbox </p></strong>
+                <hr>
+            </div>
+            <div class="input">
+                <input type="text" id="inputtext">
+                <button type="button" onclick="SendMessage()">Kirim</button>
+            </div>
+        </section>
+    </fieldset>
+
+    <script>
+        function SendMessage(){
+            let text = document.getElementById("inputtext").value;
+            let paragraf = document.createElement("p");
+
+            paragraf.innerHTML = string(text);
+            document.getElementById("textbox").appendChild(paragraf).style.margin = "10px";
+        }
+    </script>
+</body>
+</html>
