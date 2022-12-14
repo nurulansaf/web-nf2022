@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript - var, let dan const</title>
+</head>
+<body>
+    
+    <h1>Javascript Dasar</h1>
+    <script>
+        // console tidak bisa di show dalam view html, hanya bisa di lihat saat di inspect
+        console.log((150 * 2) + 5);
+
+        // document write untuk menampilkan di view
+        document.write((15 * 2) + 5);
+
+        // ada 3 cara variable declaration/cara
+        // var, let dan const
+
+        // let : reassign value/mengubah data yang sudah disimpan pada sebuah variable.
+        // akan mengambil data paling bawah dari var yang sama
+        // kaloo | ada 2 let dg nama var yang sama akan erorr
+        // let dinoAge = 100;
+        // let dinoAge = 100;
+
+        let dinoAge = 100;
+        dinoAge = 150;
+        document.write(dinoAge);
+
+        
+        // Dinamakan variable karena data yang disimpan didalamnya sangat bervariasi.
+        let dinoName = "Tricera";
+        document.write(" Nama Dino " + dinoName);
+        // spasi dalam "string" berpengaruh
+
+
+        // const : bisa pakai ke var yang tidak berubah, seperti phi lingkaran yang tetap 3.14
+        const dinoHeight = 300;
+        console.log(dinoHeight);
+    </script>
+</body>
+</html>
