@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light static-top mb-3">
+                     
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="navbar-toggler-icon"></span>
+        </button> <a class="navbar-brand text-success font-weight-bold" href="#">uygie.shop</a>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                     <a class="nav-link" href="#tentang">Tentang Kami</a>
+                </li>
+                <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Produk</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                         <a class="dropdown-item" href="#"> Salad Buah</a> 
+                         <a class="dropdown-item" href="#"> Sandwicth Buah</a> 
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline  ml-md-auto">
+                <input class="form-control mr-sm-2" type="text" /> 
+                <button class="btn btn-primary btn-sm btn-success my-2 my-sm-0" type="submit">
+                    Cari
+                </button>
+            </form>
+            <ul class="navbar-nav ml-md-3">
+                <li class="nav-item active">
+                     <a class="nav-link" href="#">Keranjang <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Akun</a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                         <a class="dropdown-item" href="#">Akun Saya</a> 
+                         <a class="dropdown-item" href="#">Pengaturan</a> 
+                         <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                        <div class="dropdown-divider">
+                        </div> <a class="dropdown-item" href="#">Keluar</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron bg-light">
+                    <h2>Selamat Datang di,  <b class="font-weight-bold text-success">uygie.shop</b></h2>
+                    <p>Helo, kami menyediakan buah-buahan dan hidangan berdasarkan buah yang <i>fresh</i> dan bisa anda nikmati kapanpun, dimanapun, dan dengan siapapun.
+                    Hidangan yang kami miliki, bisa di <i>order</i> oleh ojek online, dengan kemasan yang aman dan  selamat sampai tujuan</p>
+                    <p>
+                        <a class="btn btn-primary btn-sm btn-success" href="#">Pesan Sekarang !</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="tentang">
+            <div class="col-md-4">
+                <div class="list-group">
+                     <a href="#" class="list-group-item list-group-item-action active">Home</a>
+                    <div class="list-group-item">
+                        List header
+                    </div>
+                    <div class="list-group-item">
+                        <h4 class="list-group-item-heading">
+                            List group item heading
+                        </h4>
+                        <p class="list-group-item-text">
+                            ..
+                        </p>
+                    </div>
+                    <div class="list-group-item justify-content-between">
+                        Help <span class="badge badge-secondary badge-pill">14</span>
+                    </div> <a href="#" class="list-group-item list-group-item-action active justify-content-between">Home <span class="badge badge-light badge-pill">14</span></a>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <h3 class="font-weight-bold text-success">Tentang Kami</h3>
+                <p><strong>uygie.shop</strong> ialah situs online yang menjual beragam macam buah-buahan dan hidangan yang dasar nya dengan buah.kami menyediakan buah-buahan dan hidangan berdasarkan buah yang fresh dan bisa anda nikmati kapanpun, dimanapun, dan dengan siapapun. Hidangan yang kami miliki, bisa di order oleh ojek online, dengan kemasan yang aman dan selamat sampai tujuan.
+                </p>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                #
+                            </th>
+                            <th>
+                                Product
+                            </th>
+                            <th>
+                                Payment Taken
+                            </th>
+                            <th>
+                                Status
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                TB - Monthly
+                            </td>
+                            <td>
+                                01/04/2012
+                            </td>
+                            <td>
+                                Default
+                            </td>
+                        </tr>
+                        <tr class="table-active">
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                TB - Monthly
+                            </td>
+                            <td>
+                                01/04/2012
+                            </td>
+                            <td>
+                                Approved
+                            </td>
+                        </tr>
+                        <tr class="table-success">
+                            <td>
+                                2
+                            </td>
+                            <td>
+                                TB - Monthly
+                            </td>
+                            <td>
+                                02/04/2012
+                            </td>
+                            <td>
+                                Declined
+                            </td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>
+                                3
+                            </td>
+                            <td>
+                                TB - Monthly
+                            </td>
+                            <td>
+                                03/04/2012
+                            </td>
+                            <td>
+                                Pending
+                            </td>
+                        </tr>
+                        <tr class="table-danger">
+                            <td>
+                                4
+                            </td>
+                            <td>
+                                TB - Monthly
+                            </td>
+                            <td>
+                                04/04/2012
+                            </td>
+                            <td>
+                                Call in to confirm
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                 
+                <address>
+                     <strong>Twitter, Inc.</strong><br /> 795 Folsom Ave, Suite 600<br /> San Francisco, CA 94107<br /> <abbr title="Phone">P:</abbr> (123) 456-7890
+                </address>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    
+</body>
+</html>
