@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap - Home 2</title>
+
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="assets/img/fav.png" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="assets/img/pasar/fav.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="assets/img/pasar/fav.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="assets/img/pasar/fav.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="assets/img/pasar/fav.png">
+
+    <!-- EXTERNAL -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- INTERNAL -->
+    <link rel="stylesheet" href="assets/css/style-2.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg static-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class='bx bx-menu-alt-left bx-sm'></i>
+        </button> 
+        <!-- <a class="navbar-brand text-success font-weight-bold" href="#">uygie.shop</a> -->
+        <a  class="navbar-brand" href="home-2.html">
+            <img src="assets/img/lg-properti.png" width="140" alt="City tours" data-retina="true">
+        </a>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="navbar-nav ml-5 align-items-center">
+                <li class="nav-item active">
+                     <a class="nav-link text-success" href="#"><i class='bx bxs-home-circle'></i> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                     <a class="nav-link" href="#tentang">Profil</a>
+                </li>
+                <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Publikasi</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                         <a class="dropdown-item" href="#"> Berita & Artikel</a> 
+                         <a class="dropdown-item" href="#"> Pengumuman</a> 
+                    </div>
+                </li>
+                <li class="nav-item">
+                     <a class="nav-link" href="#">Kontak Kami</a>
+                </li>
+                <li class="text-succes d-none d-md-block">|</li>
+            </ul>
+            <form class="form-inline  ml-md-auto d-none d-md-block">
+                <input class="form-control mr-sm-2" placeholder="Cari" type="text" /> 
+                <button class="btn btn-primary btn-sm btn-success my-2 my-sm-0" type="submit">
+                    <i class='bx bx-search'></i>
+                </button>
+            </form>
+            <ul class="navbar-nav ml-md-3 align-items-center">
+                <li class="text-succes d-none d-md-block">|</li>
+
+                <li class="nav-item active">
+                     <a class="nav-link text-success" href="#"><i class='bx  bx-sm bxs-cart-alt'></i> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown"><i class='bx bx-sm  bxs-user-circle' ></i></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                         <a class="dropdown-item" href="#">Akun Saya</a> 
+                         <a class="dropdown-item" href="#">Pengaturan</a> 
+                         <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                        <div class="dropdown-divider">
+                        </div> <a class="dropdown-item" href="#">Keluar</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="banner-item section-content">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/banner2.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption">
+                                <div class="pl-3" style="border-left: 5px solid #FFC600;">
+                                    <h2 class="font-weight-bold text-white">Selamat Datang di <span style="color: #00cc76 !important;">PD Pasar Jaya</span></h2>
+                                </div>
+                                <p class=" d-none d-md-block" style="font-size: 15px;">Dari 153 Pasar yang dimiliki, Pasar Jaya mengelola 148 pasar dengan omset bisnis yang diperdagangkan lebih dari 150 triliun rupiah per tahun dengan 105.223 tempat usaha.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/banner1.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption">
+                                <small class="text-warning">PD Pasar Jaya</small>
+                                <h2 class="font-weight-bold text-white">Bergabung Bersama <span style="color: #00cc76 !important;">Mitra Sukses</span> Lainnya</h2>
+                                <p class=" d-none d-md-block" style="font-size: 15px;">Sistem manajemen sewa menyewa ini dibuat untuk mempermudah tenant mencari lahan untuk secara mudah dan cepat.</p>
+                                <button class="btn font-weight-bold btn-primary btn-sm btn-success my-2 my-sm-0 float-right" type="submit">
+                                    Join
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-content pt-4 mb-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="banner-item-content">                        
+                    <h2 class="font-weight-bold mb-4">Lokasi <span class="text-success">Sekarang</span></h2>
+                    <h1><i class="bx bx-radio-circle-marked bx-flashing text-danger"></i> <span class="span">Pasar Gang Kancil</span> - Jakarta Barat</h1>
+                    <h2 style="font-weight: 700;">Bergabung Bersama <span class="span">Mitra Sukses</span> Lainya</h2>
+                    <p style="font-size: 15px; line-height: normal; text-align: justify;">Sistem manajemen sewa menyewa ini dibuat untuk mempermudah tenant mencari lahan untuk secara mudah dan cepat.</p>
+                    <div class="mb-2" style="border: 2px solid #FFCB00; width: 100%;"></div>
+                    <div class="log">
+                        <div class="d-flex align-items-center pt-2">
+                            <i class="ri-user-shared-line" style="font-size: 30px; color: #46aba5;"></i>
+                            <div class="mb-4">
+                                <h6 class="font-weight-bold text-dark" style="line-height: 8px;">Saya Minat Menjadi Mitra,</h6>
+                                <a href="#" class="btn-warning btn-sm text-white font-weight-bold" data-toggle="modal" data-target="#orderform" style="font-size: 11px;">Join Mitra</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="font-weight-bold mb-4">Daftar <span class="text-success">Properti</span></h2>
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="item row p-2 mb-3 bg-white shadow-sm rounded">
+                                        <div class="col-md-6">
+                                            <figure style="border-radius: 5px;"><img src="assets/img/iklan.jpg" alt="" style="width: 100%; height: 150px; object-fit: cover; border-radius: 5px;">
+                                            </figure>
+                                            <span class="badge badge-danger span-label">Tipe Iklan - A</span>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h6><span class="badge badge-success text-white">Iklan Reklame</span></h6>                    
+                                            <h6 class="font-weight-bold">Iklan Reklame 500 x 300 CM</h6>
+                                            <span class="text-success font-weight-bold"><i class="bx bxs-label"></i> Blok B-1 </span><br>
+                                            <small style="color: #a6a6a6;"><i class='bx bxs-map'></i>  Jl. Keamanan No.5, RT.5/RW.6, Keagungan, Kec. Taman Sari..  </small>
+                                            <br>
+                                            <button class="btn font-weight-bold btn-primary btn-sm btn-success my-2 my-sm-0" type="submit">
+                                                Sewa
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="item row p-2 mb-3 bg-white shadow-sm rounded">
+                                        <div class="col-md-6">
+                                            <figure style="border-radius: 5px;"><img src="assets/img/kios1.jpg" alt="" style="width: 100%; height: 150px; object-fit: cover; border-radius: 5px;">
+                                            </figure>
+                                            <span class="badge badge-warning span-label">Book & Stationery</span>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h6><span class="badge badge-success text-white">Kios</span></h6>                    
+                                            <h6 class="font-weight-bold">Kios 1 lantai 2x3m</h6>
+                                            <span class="text-success font-weight-bold"><i class="bx bxs-label"></i> Blok A-4 </span><br>
+                                            <small style="color: #a6a6a6;"><i class='bx bxs-map'></i>  Jl. Keamanan No.5, RT.5/RW.6, Keagungan, Kec. Taman Sari..  </small>
+                                            <br>
+                                            <button class="btn font-weight-bold btn-primary btn-sm btn-success my-2 my-sm-0 float-right" type="submit">
+                                                Sewa
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="feature-minat">
+                            <div class="container">
+                                <div class="row feature_home_2" style="margin-top: 10px;">
+                                    <div class="col-lg-12" style="padding-left: 5px; padding-right: 5px;">
+                                        <div class="p-2">
+                                            <div class="col-12">
+                                                <div class="row align-items-center">
+                                                    <div class="col-lg-3">
+                                                        <img src="assets/img/img-minat.png" style="width: 70%; height: auto; float: right;">
+                                                    </div>
+                        
+                                                    <div class="col-lg-9">
+                                                        <div class="main_title" style="text-align: left;">
+                                                            <h2>Permohonan <span>Minat</span> Properti</h2>
+                                                            <p style="font-size: 17px;">
+                                                                Ajukan permohonan minat anda sekarang!
+                                                            </p>
+                                                            <button class="btn font-weight-bold btn-primary btn-sm btn-success my-2 my-sm-0 float-right" type="submit">
+                                                                Minat <i class='bx bx-chevron-right'></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End container -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="revealed stop">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <h3 style="font-size: 20px;">Sistem Pemesanan Dan Management Tenant Berbasis Website</h3>
+                    <p>Sistem manajemen sewa menyewa ini dibuat untuk mempermudah tenant mencari lahan untuk secara mudah dan cepat.</p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h3 style="font-size: 20px;">Hubungi Kami</h3>
+                    <p style="margin-bottom: 0px;"><i class='bx bxs-map'></i> Jl. Raya Bogor No.31, Cisalak Ps., Kec. Cimanggis, Kota Depok, Jawa Barat 16452</p>
+                    <p style="margin-bottom: 0px;"><i class='bx bxs-envelope'></i> info.sitenant@cepok.go.id</p>
+                </div>
+                <div class="col-lg-4 col-md-2">
+                    <h3 style="font-size: 20px;">Data Pengunjung Website</h3>
+                    <p>Published : 20-08-2022</p>
+                    <hr>
+                    <div class="row">
+                        <div class="col-6">
+                            <h6 class="font-weight-bold">Hari Ini : <span class="text-dark">120</span></h6>
+                        </div>
+                        <div class="col-6">
+                            <h6 class="font-weight-bold">Minggu Ini : <span class="text-dark">220</span></h6>
+                        </div>
+                        <div class="col-6">
+                            <h6 class="font-weight-bold">Bulan Ini : <span class="text-dark">420</span></h6>
+                        </div>
+                        <div class="col-6">
+                            <h6 class="font-weight-bold">Tahun Ini : <span class="text-dark">820</span></h6>
+                        </div>
+                    </div>
+                </div>
+               
+            </div><!-- End row -->
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    <div id="social_footer">
+                        <small class="mr-3"><a href="#" style="color: #fff;">
+                            <i class='bx bxl-facebook' ></i>
+                        </a></small>
+                        <small class="mr-3"><a href="#" style="color: #fff;">
+                            <i class='bx bxl-twitter' ></i>
+                        </a></small>
+                        <small class="mr-3"><a href="#" style="color: #fff;">
+                            <i class='bx bxl-instagram-alt' ></i>
+                        </a></small>
+                        <small class="mr-3"><a href="#" style="color: #fff;">
+                            <i class='bx bxl-youtube' ></i>
+                        </a></small>
+                        <p style="color: white;"><span>Copyright © 2022 Property Management Digital</span></p>
+                    </div>
+                </div>
+            </div><!-- End row -->
+        </div><!-- End container -->
+    </footer>
+    
+
+     <!-- JS -->
+     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+     
+</body>
+</html>
